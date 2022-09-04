@@ -27,7 +27,7 @@ func addInbound(client command.HandlerServiceClient) error {
 			Tag: "proxy0",
 			ReceiverSettings: serial.ToTypedMessage(&proxyman.ReceiverConfig{
 				// 监听端口 12345
-				PortRange: net.SinglePortRange(net.Port(12360)),
+				// PortRange: net.SinglePortRange(net.Port(12360)),
 				// 监听地址, 默认0.0.0.0
 				Listen: net.NewIPOrDomain(net.AnyIP),
 				// 流量探测
