@@ -1,4 +1,4 @@
-module github.com//Xray-API-documents
+module github.com/drice82/Xray-API-documents
 
 go 1.15
 
