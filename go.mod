@@ -1,4 +1,4 @@
-module github.com/crossfw/Xray-API-documents
+module github.com//Xray-API-documents
 
 go 1.15
 
